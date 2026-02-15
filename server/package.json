@@ -4,18 +4,18 @@
   "description": "",
   "license": "ISC",
   "author": "",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "dev": "npx ts-node index.ts",
-    "seed": "npx ts-node index.ts seed-database.ts"
+    "seed": "npx ts-node seed-database.ts"
   },
   "devDependencies": {
-    "@types/node": "^25.2.3",
-    "typescript": "^5.9.3",
     "@types/cors": "^2.8.19",
     "@types/express": "^5.0.6",
-    "ts-node": "^10.9.2"
+    "@types/node": "^25.2.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
   },
   "dependencies": {
     "@langchain/core": "^1.1.24",
@@ -27,7 +27,7 @@
     "dotenv": "^17.3.1",
     "express": "^5.2.1",
     "langchain": "^1.2.24",
-    "mongodb": "^7.1.0",
+    "mongodb": "^6.21.0",
     "zod": "^4.3.6"
   }
 }
